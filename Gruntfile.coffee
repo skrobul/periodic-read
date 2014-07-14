@@ -6,7 +6,7 @@ module.exports = (grunt) ->
       compile:
         files:
           'release/index.js' : 'index.coffee'
-    releaseMain:
+    release:
       options:
         folder: 'release'
         github:
@@ -22,5 +22,5 @@ module.exports = (grunt) ->
 
   grunt.loadNpmTasks 'grunt-release'
   grunt.loadNpmTasks 'grunt-contrib-copy'
-  grunt.registerTask 'release', ['coffee', 'copy', 'releaseMain']
+  grunt.registerTask 'release', ['coffee', 'copy', 'release']
   grunt.registerTask 'default', ['coffee']
