@@ -1,6 +1,6 @@
 {
   "name": "periodic-read",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Periodically reads a file",
   "main": "index.coffee",
   "scripts": {
