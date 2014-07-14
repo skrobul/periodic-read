@@ -8,9 +8,9 @@ module.exports = (grunt) ->
           'release/index.js' : 'index.coffee'
     release:
       options:
-        folder: 'release'
-        github:
-          repo: 'skrobul/periodic-read'
+        folder: './release'
+        # github:
+        #   repo: 'skrobul/periodic-read'
     copy:
       target:
         files: [
