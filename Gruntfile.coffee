@@ -22,5 +22,5 @@ module.exports = (grunt) ->
 
   grunt.loadNpmTasks 'grunt-release'
   grunt.loadNpmTasks 'grunt-contrib-copy'
-  grunt.registerTask 'release', ['coffee', 'copy', 'release']
+  grunt.registerTask 'newrelease', ['coffee', 'copy', 'release']
   grunt.registerTask 'default', ['coffee']
